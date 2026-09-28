@@ -28,6 +28,8 @@ my-skills/
 ├── deepwork/
 ├── dependency-source-audit/
 ├── educational-depth/
+├── first-principles-implementation/
+├── formal-proof-planning/
 ├── gpu-rendering-audit/
 ├── math-rigor/
 ├── ml-experiment-audit/
@@ -69,6 +71,8 @@ my-skills/
 | `reproducible-research` | Make computational research re-runnable and auditable |
 | `data-provenance` | Track data/assets, hashes, licenses, transformations and redistribution |
 | `educational-depth` | Build teaching from concept → model → formalization → code → lab → project |
+| `first-principles-implementation` | Rebuild reduced systems from primitives for deep understanding |
+| `formal-proof-planning` | Structure Lean/Mathlib or similar machine-checked proofs |
 | `release-readiness` | Prove that one exact SHA is ready to ship |
 | `reflect` | Convert repeated workflow patterns into improved or new skills |
 
@@ -90,6 +94,12 @@ GPU/rendering:
 ```text
 codebase-map → gpu-rendering-audit → performance-engineering
 → benchmark-design → verification-planning
+```
+
+Learning/from-scratch systems:
+```text
+first-principles-implementation → math-rigor or formal-proof-planning
+→ verification-planning → educational-depth
 ```
 
 ## Install for local coding agents
